@@ -13,8 +13,8 @@ The setup and configuration of the underlying infrastructure—such as the ticke
 
 ### 🛠️ Technologies
 #### Operating Systems
-* Windows Server (Active Directory Domain Services)
-* Windows 11 Enterprise Evaluation
+* Windows Server 2025
+* Windows 11 Enterprise
 * Linux Ubuntu
 #### Ticketing System
 * Peppermint
@@ -28,5 +28,6 @@ The setup and configuration of the underlying infrastructure—such as the ticke
 #
 
 ### 📚 Resources
-* [Onboarding](https://github.com/DariusLuna/IT-Support/blob/main/Onboarding%20and%20Offboarding%20Ticketing%20Workflow/Onboarding.md)
-* [Offboarding](https://github.com/DariusLuna/IT-Support/blob/main/Onboarding%20and%20Offboarding%20Ticketing%20Workflow/Offboarding.md)
+* Windows Server 2025: [https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2025](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2025)
+* Windows 11 Enterprise: [https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-enterprise](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-enterprise)
+* Peppermint: [https://peppermint.sh/](https://peppermint.sh/)
