@@ -11,7 +11,7 @@ The setup and configuration of the underlying infrastructure—such as the ticke
 
 #
 
-### Technologies
+### ⚙️ Technologies
 #### Operating Systems
 * Windows Server (Active Directory Domain Services)
 * Windows 11 Enterprise Evaluation
