@@ -8,3 +8,24 @@ The setup and configuration of the underlying infrastructure—such as the ticke
 ### Table of Contents
 * [Onboarding](https://github.com/DariusLuna/IT-Support/blob/main/Onboarding%20and%20Offboarding%20Ticketing%20Workflow/Onboarding.md)
 * [Offboarding](https://github.com/DariusLuna/IT-Support/blob/main/Onboarding%20and%20Offboarding%20Ticketing%20Workflow/Offboarding.md)
+
+#
+
+### Technologies
+#### Operating Systems
+* Windows Server (Active Directory Domain Services)
+* Windows 11 Enterprise Evaluation
+* Linux Ubuntu
+#### Ticketing System
+* Peppermint
+#### Virtualization
+* Oracle VirtualBox
+#### Remote Support
+* TeamViewer
+#### Windows Administrative Tools
+
+#
+
+### Resources
+* [Onboarding](https://github.com/DariusLuna/IT-Support/blob/main/Onboarding%20and%20Offboarding%20Ticketing%20Workflow/Onboarding.md)
+* [Offboarding](https://github.com/DariusLuna/IT-Support/blob/main/Onboarding%20and%20Offboarding%20Ticketing%20Workflow/Offboarding.md)
