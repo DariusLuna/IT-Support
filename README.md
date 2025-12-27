@@ -6,7 +6,7 @@ This repository showcases IT Support skills, including **system administration, 
 It demonstrates the ability to solve real-world IT problems and implement efficient solutions using modern tools.
 #
 
-### ⚙️ Technologies
+### 🛠️ Technologies
 * **Windows:** PowerShell, lusrmgr.msc, Event Viewer
 * **Linux:** Bash
 * **Networking:** Router configuration, VPN, DNS, firewall basics
