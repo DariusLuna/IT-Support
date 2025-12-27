@@ -1,6 +1,6 @@
 # Onboarding Ticket – Step-by-Step Documentation
 This section documents the end-to-end onboarding process handled through a service ticket, from acknowledgment to closure. The goal is to demonstrate ticket lifecycle management, Active Directory administration, workstation setup, and secure software deployment.
-	{img}
+	![IMG01](images/onboarding/IMG01)
 
 
 ### Ticket Acknowledgement
