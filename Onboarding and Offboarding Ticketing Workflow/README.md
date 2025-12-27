@@ -1,6 +1,6 @@
 # Onboarding Ticket – Step-by-Step Documentation
 This section documents the end-to-end onboarding process handled through a service ticket, from acknowledgment to closure. The goal is to demonstrate ticket lifecycle management, Active Directory administration, workstation setup, and secure software deployment.
-	![IMG01](images/onboarding/IMG01)
+![IMG01](images/onboarding/IMG01.png)
 
 
 ### Ticket Acknowledgement
@@ -12,7 +12,7 @@ Based on the ticket description, the required tasks were:
 * Close the ticket with proper documentation
 
 The ticket was acknowledged with a comment to confirm ownership and ensure traceability of actions.
-{img}
+![IMG02](images/onboarding/IMG02.png)
 
 
 ### Ticket In Progress
@@ -20,7 +20,7 @@ To maintain visibility and accountability:
 1. Assign the ticket to the appropriate support personnel
 1. Update the ticket status to In Progress
 1. Add a comment indicating work has started
-{img}
+![IMG03](images/onboarding/IMG03.png)
 These steps ensure clear communication, especially in multi-technician environments.
 
 
@@ -29,7 +29,7 @@ These steps ensure clear communication, especially in multi-technician environme
 2. Navigate to MONSTERS.inc > Electrical Department
 3. Create a new user account with the username mike
 4. Set an initial password (password change at next logon disabled for demo purposes)
-	{img}
+![IMG04](images/onboarding/IMG04.png)
 This automatically places the user in the correct Organizational Unit (OU).
 
 
@@ -37,7 +37,7 @@ This automatically places the user in the correct Organizational Unit (OU).
 To grant access to departmental resources:
 1. Open the Electrical Projects security group
 2. Add user mike as a member
-{img}
+![IMG05](images/onboarding/IMG05.png)
 This group already has permissions to the Electrical Department’s shared folder, allowing access without assigning permissions directly to the user.
 
 
@@ -45,19 +45,19 @@ This group already has permissions to the Electrical Department’s shared folde
 The workstation was configured remotely using TeamViewer.
 Steps performed:
 1. Remote connection established to the workstation
-	{img}
-2. Renamed the PC from DESKTOP-XXXXXX to WS21
-	{img}
-3. Connected the workstation to the NAT network hosting the Domain Controller
-4. Configured IPv4 settings:
+
+3. Renamed the PC from DESKTOP-XXXXXX to WS21
+	![IMG06](images/onboarding/IMG06.png)
+4. Connected the workstation to the NAT network hosting the Domain Controller
+5. Configured IPv4 settings:
 	* Network: 10.0.2.0/24
 	* Default Gateway: 10.0.2.1
 	* Preferred DNS: 10.0.2.3 (Domain Controller)
-5. Joined the device to the domain MONSTERS.inc
-	{img}
-6. Restarted the workstation to apply changes
+6. Joined the device to the domain MONSTERS.inc
+   ![IMG07](images/onboarding/IMG07.png)
+7. Restarted the workstation to apply changes
 	Log in to the user account and finish the setup
-{img}
+	![IMG08](images/onboarding/IMG08.png)
 	Note: Domain join issues are commonly caused by incorrect DNS settings or the workstation not being connected to the correct virtual network.
 
 
@@ -65,11 +65,11 @@ Steps performed:
 To improve usability for the end user:
 1. Reconnect remotely to WS21
 2. Open File Explorer → Map Network Drive
-	{img}
+   ![IMG09](images/onboarding/IMG09.png)
 3. Map the Electrical Projects shared folder
-	{img}
+   ![IMG10](images/onboarding/IMG10.png)
 	User successfully accessing the Electrical Projects shared folder
-{img}
+   ![IMG11](images/onboarding/IMG11.png)
 Mapping the drive allows instant access without manually entering the network path.
 
 
@@ -78,7 +78,7 @@ Required software: KiCad
 Steps:
 1. Download the installer from the official source
 2. Verify the file’s Digital Signature against the publisher information
-	{img}
+   ![IMG12](images/onboarding/IMG12.png)
 3. Proceed with installation after validation
 Verifying installer integrity is a security best practice to prevent malware and unauthorized software from entering the environment.
 
@@ -87,5 +87,5 @@ Verifying installer integrity is a security best practice to prevent malware and
 1. Update ticket status to Done
 2. Add a final comment summarizing completed actions
 3. Close the ticket
-{img}
+   ![IMG13](images/onboarding/IMG13.png)
 	Some tickets may require escalation instead of closure, depending on scope or access limitations.
