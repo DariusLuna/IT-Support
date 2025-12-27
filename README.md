@@ -11,7 +11,7 @@ It demonstrates the ability to solve real-world IT problems and implement effici
 * **Linux:** Bash
 * **Networking:** Router configuration, VPN, DNS, firewall basics
 * **Virtualization:** Oracle VirtualBox
-* **Support Tools:** 
+* **Support Tools:** TeamViwer
 * **Documentation Tools:** Markdown, Google Docs
 
 #
