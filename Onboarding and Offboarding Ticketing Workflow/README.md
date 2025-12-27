@@ -1,9 +1,9 @@
-# Onboarding Ticket – Step-by-Step Documentation
+# Onboarding Ticket
 This section documents the end-to-end onboarding process handled through a service ticket, from acknowledgment to closure. The goal is to demonstrate ticket lifecycle management, Active Directory administration, workstation setup, and secure software deployment.
 
 ![IMG01](images/onboarding/IMG01.png)
 
-<hr>
+#
 
 ### Ticket Acknowledgement
 Based on the ticket description, the required tasks were:
@@ -16,7 +16,7 @@ Based on the ticket description, the required tasks were:
 The ticket was acknowledged with a comment to confirm ownership and ensure traceability of actions.
 ![IMG02](images/onboarding/IMG02.png)
 
-<hr>
+#
 
 ### Ticket In Progress
 To maintain visibility and accountability:
@@ -27,7 +27,7 @@ To maintain visibility and accountability:
 ![IMG03](images/onboarding/IMG03.png)
 These steps ensure clear communication, especially in multi-technician environments.
 
-<hr>
+#
 
 ### User Account Creation (Active Directory)
 1. Launch Active Directory Users and Computers (dsa.msc)
@@ -38,7 +38,7 @@ These steps ensure clear communication, especially in multi-technician environme
 
 This automatically places the user in the correct Organizational Unit (OU).
 
-<hr>
+#
 
 ### Group Membership & Shared Folder Access
 To grant access to departmental resources:
@@ -49,7 +49,7 @@ To grant access to departmental resources:
 
 This group already has permissions to the Electrical Department’s shared folder, allowing access without assigning permissions directly to the user.
 
-<hr>
+#
 
 ### Workstation Configuration & Domain Join
 The workstation was configured remotely using TeamViewer.
@@ -70,20 +70,20 @@ Steps performed:
 ![IMG09](images/onboarding/IMG09.png)
 	Note: Domain join issues are commonly caused by incorrect DNS settings or the workstation not being connected to the correct virtual network.
 
-<hr>
+#
 
 ### Shared Folder Mapping
 To improve usability for the end user:
 1. Reconnect remotely to WS21
-1. Open File Explorer → Map Network Drive
+1. Open File Explorer → Map Network Drive <br>
 ![IMG10](images/onboarding/IMG10.png)
 1. Map the Electrical Projects shared folder
 ![IMG11](images/onboarding/IMG11.png)
 	User successfully accessing the Electrical Projects shared folder
 ![IMG12](images/onboarding/IMG12.png)
-Mapping the drive allows instant access without manually entering the network path.
+Note: Mapping the drive allows instant access without manually entering the network path.
 
-<hr>
+#
 
 ### Software Installation (Secure Practice)
 Required software: KiCad
@@ -94,7 +94,7 @@ Steps:
 1. Proceed with installation after validation
 Verifying installer integrity is a security best practice to prevent malware and unauthorized software from entering the environment.
 
-<hr>
+#
 
 ### Ticket Closure
 1. Update ticket status to Done
